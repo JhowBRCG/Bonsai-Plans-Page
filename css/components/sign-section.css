@@ -1,0 +1,41 @@
+.sign-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 6rem;
+  background: #4c4d5f07;
+  border-radius: 0.7rem;
+  gap: 25rem;
+}
+
+@media screen and (max-width: 820px) {
+  .sign-card {
+    gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .sign-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.sign-card p {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.sign-card span {
+  color: #00b289;
+}
+
+.sign-card button {
+  color: white;
+  padding: 1.7rem 4rem;
+  background: #00b289;
+  border: 0;
+  border-radius: 0.5rem;
+  font-weight: 900;
+  cursor: pointer;
+}

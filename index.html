@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bonsai</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/components/header.css" />
+    <link rel="stylesheet" href="css/components/plans-section.css" />
+    <link rel="stylesheet" href="css/components/addon-section.css" />
+    <link rel="stylesheet" href="css/components/sign-section.css" />
+    <link rel="stylesheet" href="css/components/faq-section.css" />
+    <link rel="stylesheet" href="css/components/main-footer.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="keep-visible">
+          <img
+            src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635b95cfdbc1e264b35486ad_Symbols.svg"
+            alt="Logo"
+          />
+        </a>
+        <a
+          href="#"
+          class="menu-icon"
+          aria-label="open the menu"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        ></a>
+        <ul class="action-wrapper" id="menu-action">
+          <li
+            class="action product"
+            aria-label="open the dropdown product"
+            aria-haspopup="true"
+            aria-controls="dropdown-product"
+            aria-expanded="false"
+          >
+            <span class="product-dropdown"
+              >Product
+              <img
+                src="assets/keyboard-arrow-down-rounded.svg"
+                alt="icon-down"
+                class="product-icon"
+              />
+            </span>
+            <div class="grid-dropdown-product" id="dropdown-product">
+              <ul class="dropdown">
+                <li><h2 class="dropdown-title">Client Management</h2></li>
+                <li><a href="#">CRM</a></li>
+                <li><a href="#">Scheduling</a></li>
+                <li><a href="#">Proposals</a></li>
+                <li><a href="#">Contracts</a></li>
+                <li><a href="#">Forms</a></li>
+              </ul>
+
+              <ul class="dropdown">
+                <li><h2 class="dropdown-title">Project Management</h2></li>
+                <li><a href="#">Time tracking</a></li>
+                <li><a href="#">Tasks</a></li>
+                <li><a href="#">File sharing</a></li>
+                <li><a href="#">Client portal</a></li>
+                <li><a href="#">Collaboration</a></li>
+              </ul>
+
+              <ul class="dropdown">
+                <li><h2 class="dropdown-title">Financial Management</h2></li>
+                <li><a href="#">Invoicing</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Accounting</a></li>
+                <li><a href="#">Taxes</a></li>
+                <li><a href="#">Banking</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li
+            class="action template"
+            aria-label="open the dropdown product"
+            aria-haspopup="true"
+            aria-controls="dropdown-product"
+            aria-expanded="false"
+          >
+            <span class="template-dropdown"
+              >Template
+              <img
+                src="assets/keyboard-arrow-down-rounded.svg"
+                alt="icon-down"
+                class="template-icon"
+              />
+            </span>
+            <div class="grid-dropdown-template" id="dropdown-template">
+              <ul class="dropdown">
+                <li><h2 class="dropdown-title">Client Management</h2></li>
+                <li><a href="#">CRM</a></li>
+                <li><a href="#">Scheduling</a></li>
+                <li><a href="#">Proposals</a></li>
+                <li><a href="#">Contracts</a></li>
+                <li><a href="#">Forms</a></li>
+              </ul>
+
+              <ul class="dropdown">
+                <li><h2 class="dropdown-title">Project Management</h2></li>
+                <li><a href="#">Time tracking</a></li>
+                <li><a href="#">Tasks</a></li>
+                <li><a href="#">File sharing</a></li>
+                <li><a href="#">Client portal</a></li>
+                <li><a href="#">Collaboration</a></li>
+              </ul>
+
+              <ul class="dropdown">
+                <li><h2 class="dropdown-title">Financial Management</h2></li>
+                <li><a href="#">Invoicing</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Accounting</a></li>
+                <li><a href="#">Taxes</a></li>
+                <li><a href="#">Banking</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="action" data-text-color="green">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="action" data-text-color="green">Reviews</a>
+          </li>
+        </ul>
+        <ul class="button-wrapper" id="menu-button">
+          <li>
+            <a href="#"><button class="button">LOG IN</button></a>
+          </li>
+          <li>
+            <a href="#"
+              ><button
+                class="button"
+                data-text-color="white"
+                data-bg-color="green"
+              >
+                START FREE
+              </button></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="wrapper-content">
+      <main>
+        <section class="plans-section">
+          <div class="wrapper-title-month">
+            <h1>Plans & Pricing</h1>
+
+            <article class="month-to-year">
+              <p class="free">2 MONTHS FREE!</p>
+              <div class="wrapper-button">
+                <p id="monthly-text">MONTHLY</p>
+                <span>
+                  <button
+                    class="button-dash"
+                    aria-label="switch plan for yearly or month"
+                  ></button>
+                </span>
+                <p data-color-text="grey" id="yearly-text">YEARLY</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="wrapper-card">
+            <article class="card-plan">
+              <h2>Workflow</h2>
+              <p class="price">
+                <span class="small-number">$</span> 19
+                <span class="small">/MONTH</span>
+              </p>
+
+              <ul class="vantages">
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon
+                  >Unlimited Clients & Projects
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Proposals
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Contracts
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Invoicing & Payments
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Client CRM
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Project Management
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Task & Time Tracking
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  iOS,Android,Chrome, & Mac Apps
+                </li>
+              </ul>
+
+              <button><a href="#"></a>START FREE</button>
+            </article>
+
+            <article class="card-plan popular">
+              <h2>Workflow Plus</h2>
+              <p class="price">
+                <span class="small-number">$</span> 29
+                <span class="small">/MONTH</span>
+              </p>
+
+              <ul class="vantages">
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon
+                  >Everything in Workflow,plus...
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  White-labelled client experience
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Client forms and questionnaires <span class="new">New</span>
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Workflow automations
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Subcontracting (client-mode)
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Calendly integration
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Client portal
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Priority support
+                </li>
+              </ul>
+
+              <button><a href="#"></a>START FREE</button>
+            </article>
+
+            <article class="card-plan year">
+              <h2>Workflow</h2>
+              <p class="price">
+                <span class="small-number">$</span> 15
+                <span class="small">/MONTH</span>
+              </p>
+
+              <ul class="vantages">
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon
+                  >Unlimited Clients & Projects
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Proposals
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Contracts
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Invoicing & Payments
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Client CRM
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Project Management
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Task & Time Tracking
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  iOS,Android,Chrome, & Mac Apps
+                </li>
+              </ul>
+
+              <button><a href="#"></a>START FREE</button>
+            </article>
+
+            <article class="card-plan year popular">
+              <h2>Workflow Plus</h2>
+              <p class="price">
+                <span class="small-number">$</span> 20
+                <span class="small">/MONTH</span>
+              </p>
+
+              <ul class="vantages">
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon
+                  >Everything in Workflow,plus...
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  White-labelled client experience
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Client forms and questionnaires <span class="new">New</span>
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Workflow automations
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Subcontracting (client-mode)
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Calendly integration
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Client portal
+                </li>
+                <li>
+                  <iconify-icon
+                    class="check-icon"
+                    icon="material-symbols:check-small-rounded"
+                  ></iconify-icon>
+                  Priority support
+                </li>
+              </ul>
+
+              <button><a href="#"></a>START FREE</button>
+            </article>
+          </div>
+        </section>
+
+        <section class="addon-section">
+          <h2>Super charge your work with add-ons</h2>
+
+          <div class="wrapper-addon-card">
+            <article class="card-addon">
+              <div class="wrapper-text">
+                <h3>Collaborators</h3>
+                <p class="text">
+                  Invite other users to specific projects for limited access and
+                  functionality.
+                </p>
+              </div>
+              <p class="price">Free</p>
+            </article>
+
+            <article class="card-addon">
+              <div class="wrapper-text">
+                <h3>Partners</h3>
+                <p class="text">
+                  Invite other users for full account access and compoany
+                  management.
+                </p>
+              </div>
+              <div>
+                <p class="price">$9</p>
+                <p>/MONTH</p>
+              </div>
+            </article>
+
+            <article class="card-addon">
+              <div class="wrapper-text">
+                <h3>Bonsai Tax</h3>
+                <p class="text">
+                  Track expenses,identify write-offs,and estimate quarterly
+                  taxes easily.
+                </p>
+
+                <a href="#">LEARN MORE &#10095;</a>
+              </div>
+              <div>
+                <p class="price">$10</p>
+                <p class="month">/MONTH</p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="sign-section">
+          <article class="sign-card">
+            <div>
+              <p>It's <span>your</span> business.</p>
+              <p>We're here to help it grow.</p>
+            </div>
+            <button><a href="#">START FREE</a></button>
+          </article>
+        </section>
+
+        <section class="faq-section">
+          <h2>Frequently Asked Questions</h2>
+
+          <div class="wrapper-card-quest">
+            <article class="card-quest">
+              <div class="row-wrapper dropdown-one">
+                <h3>How does the 14 day free trial work?</h3>
+                <img
+                  src="assets/keyboard-arrow-down-rounded.svg"
+                  alt="arrow-up"
+                  class="faq-arrow-one"
+                />
+              </div>
+              <p class="text show-one">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                dolor est vitae ad libero! Consequatur inventore nam tempora
+                ullam ab nesciunt itaque quod necessitatibus aliquid. Nobis,
+                incidunt temporibus! Dolores, nulla? Sed distinctio,
+                exercitationem asperiores vero error ea veniam. Doloremque, quos
+                quo aspernatur dignissimos, voluptatem consectetur et doloribus
+                ea quibusdam neque expedita ratione beatae deserunt alias, quae
+                dolorum quis accusantium nobis consequuntur sit natus ipsam
+                deleniti asperiores optio? Reiciendis, dolores veniam dolorem
+                repellat, nobis odio cupiditate ullam quam incidunt nisi beatae
+                numquam dolore a harum id fugiat ex! Nemo atque consectetur
+                itaque id sed quos, delectus porro doloribus cumque numquam
+                soluta nostrum, eveniet repellendus error exercitationem
+                cupiditate obcaecati omnis qui odio quis nisi molestiae
+                perspiciatis commodi ratione. Excepturi, iste nisi obcaecati
+                tempore illo architecto nihil eum, odio maxime dolorem explicabo
+                nostrum sint placeat reprehenderit enim ad? Quidem quas sequi
+                nemo dolor nam. Sed voluptatibus reprehenderit dicta quam
+                eligendi, a sequi, porro alias asperiores, sunt optio cumque
+                perferendis! Magni nemo adipisci earum expedita ipsam. Aliquam
+                saepe ducimus voluptas error porro blanditiis aperiam expedita
+                obcaecati sapiente, voluptates deserunt sit voluptatem maiores
+                qui provident eligendi, dolores quia voluptatum explicabo alias
+                placeat id repellat exercitationem? Perferendis velit eveniet
+                asperiores? Est asperiores ea rerum? Error, perferendis!
+              </p>
+            </article>
+
+            <article class="card-quest">
+              <div class="row-wrapper dropdown-two">
+                <h3>Can I change plans anytime?</h3>
+                <img
+                  src="assets/keyboard-arrow-down-rounded.svg"
+                  alt="arrow-up"
+                  class="faq-arrow-two"
+                />
+              </div>
+              <p class="text show-two">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                dolor est vitae ad libero! Consequatur inventore nam tempora
+                ullam ab nesciunt itaque quod necessitatibus aliquid. Nobis,
+                incidunt temporibus! Dolores, nulla? Sed distinctio,
+                exercitationem asperiores vero error ea veniam. Doloremque, quos
+                quo aspernatur dignissimos, voluptatem consectetur et doloribus
+                ea quibusdam neque expedita ratione beatae deserunt alias, quae
+                dolorum quis accusantium nobis consequuntur sit natus ipsam
+                deleniti asperiores optio? Reiciendis, dolores veniam dolorem
+                repellat, nobis odio cupiditate ullam quam incidunt nisi beatae
+                numquam dolore a harum id fugiat ex! Nemo atque consectetur
+                itaque id sed quos, delectus porro doloribus cumque numquam
+                soluta nostrum, eveniet repellendus error exercitationem
+                cupiditate obcaecati omnis qui odio quis nisi molestiae
+                perspiciatis commodi ratione. Excepturi, iste nisi obcaecati
+                tempore illo architecto nihil eum, odio maxime dolorem explicabo
+                nostrum sint placeat reprehenderit enim ad? Quidem quas sequi
+                nemo dolor nam. Sed voluptatibus reprehenderit dicta quam
+                eligendi, a sequi, porro alias asperiores, sunt optio cumque
+                perferendis! Magni nemo adipisci earum expedita ipsam. Aliquam
+                saepe ducimus voluptas error porro blanditiis aperiam expedita
+                obcaecati sapiente, voluptates deserunt sit voluptatem maiores
+                qui provident eligendi, dolores quia voluptatum explicabo alias
+                placeat id repellat exercitationem? Perferendis velit eveniet
+                asperiores? Est asperiores ea rerum? Error, perferendis!
+              </p>
+            </article>
+
+            <article class="card-quest">
+              <div class="row-wrapper dropdown-three">
+                <h3>How do I pause my Bonsai subscription?</h3>
+                <img
+                  src="assets/keyboard-arrow-down-rounded.svg"
+                  alt="arrow-up"
+                  class="faq-arrow-three"
+                />
+              </div>
+              <p class="text show-three">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                dolor est vitae ad libero! Consequatur inventore nam tempora
+                ullam ab nesciunt itaque quod necessitatibus aliquid. Nobis,
+                incidunt temporibus! Dolores, nulla? Sed distinctio,
+                exercitationem asperiores vero error ea veniam. Doloremque, quos
+                quo aspernatur dignissimos, voluptatem consectetur et doloribus
+                ea quibusdam neque expedita ratione beatae deserunt alias, quae
+                dolorum quis accusantium nobis consequuntur sit natus ipsam
+                deleniti asperiores optio? Reiciendis, dolores veniam dolorem
+                repellat, nobis odio cupiditate ullam quam incidunt nisi beatae
+                numquam dolore a harum id fugiat ex! Nemo atque consectetur
+                itaque id sed quos, delectus porro doloribus cumque numquam
+                soluta nostrum, eveniet repellendus error exercitationem
+                cupiditate obcaecati omnis qui odio quis nisi molestiae
+                perspiciatis commodi ratione. Excepturi, iste nisi obcaecati
+                tempore illo architecto nihil eum, odio maxime dolorem explicabo
+                nostrum sint placeat reprehenderit enim ad? Quidem quas sequi
+                nemo dolor nam. Sed voluptatibus reprehenderit dicta quam
+                eligendi, a sequi, porro alias asperiores, sunt optio cumque
+                perferendis! Magni nemo adipisci earum expedita ipsam. Aliquam
+                saepe ducimus voluptas error porro blanditiis aperiam expedita
+                obcaecati sapiente, voluptates deserunt sit voluptatem maiores
+                qui provident eligendi, dolores quia voluptatum explicabo alias
+                placeat id repellat exercitationem? Perferendis velit eveniet
+                asperiores? Est asperiores ea rerum? Error, perferendis!
+              </p>
+            </article>
+
+            <article class="card-quest">
+              <div class="row-wrapper dropdown-four">
+                <h3>What is your refund policy?</h3>
+                <img
+                  src="assets/keyboard-arrow-down-rounded.svg"
+                  alt="arrow-up"
+                  class="faq-arrow-four"
+                />
+              </div>
+              <p class="text show-four">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                dolor est vitae ad libero! Consequatur inventore nam tempora
+                ullam ab nesciunt itaque quod necessitatibus aliquid. Nobis,
+                incidunt temporibus! Dolores, nulla? Sed distinctio,
+                exercitationem asperiores vero error ea veniam. Doloremque, quos
+                quo aspernatur dignissimos, voluptatem consectetur et doloribus
+                ea quibusdam neque expedita ratione beatae deserunt alias, quae
+                dolorum quis accusantium nobis consequuntur sit natus ipsam
+                deleniti asperiores optio? Reiciendis, dolores veniam dolorem
+                repellat, nobis odio cupiditate ullam quam incidunt nisi beatae
+                numquam dolore a harum id fugiat ex! Nemo atque consectetur
+                itaque id sed quos, delectus porro doloribus cumque numquam
+                soluta nostrum, eveniet repellendus error exercitationem
+                cupiditate obcaecati omnis qui odio quis nisi molestiae
+                perspiciatis commodi ratione. Excepturi, iste nisi obcaecati
+                tempore illo architecto nihil eum, odio maxime dolorem explicabo
+                nostrum sint placeat reprehenderit enim ad? Quidem quas sequi
+                nemo dolor nam. Sed voluptatibus reprehenderit dicta quam
+                eligendi, a sequi, porro alias asperiores, sunt optio cumque
+                perferendis! Magni nemo adipisci earum expedita ipsam. Aliquam
+                saepe ducimus voluptas error porro blanditiis aperiam expedita
+                obcaecati sapiente, voluptates deserunt sit voluptatem maiores
+                qui provident eligendi, dolores quia voluptatum explicabo alias
+                placeat id repellat exercitationem? Perferendis velit eveniet
+                asperiores? Est asperiores ea rerum? Error, perferendis!
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="main-footer">
+        <div class="wrapper-grid">
+          <ul class="footer-items">
+            <li>
+              <h2 class="footer-title">PRODUCT</h2>
+            </li>
+            <li><a href="#" class="item">Proposals</a></li>
+            <li><a href="#" class="item">Contracts</a></li>
+            <li><a href="#" class="item">Invoicing</a></li>
+            <li><a href="#" class="item">Client CRM</a></li>
+            <li><a href="#" class="item">Time Tracking</a></li>
+            <li><a href="#" class="item">Task Tracking</a></li>
+            <li><a href="#" class="item">Forms</a></li>
+            <li><a href="#" class="item">Accounting</a></li>
+            <li><a href="#" class="item">Bonsai Tax</a></li>
+            <li><a href="#" class="item">Bonsai Cash</a></li>
+            <div class="space">
+              <li><a href="#" class="item">Pricing</a></li>
+              <li><a href="#" class="item">Bonsai Reviews</a></li>
+            </div>
+          </ul>
+
+          <ul class="footer-items">
+            <li><h2 class="footer-title">FREE RESOURCES</h2></li>
+            <li><a href="#" class="item">Freelance Resources</a></li>
+            <li><a href="#" class="item">Freelance Blog by Bonsai</a></li>
+            <li><a href="#" class="item">How to Write a Contract</a></li>
+            <li><a href="#" class="item">Online Signature Maker</a></li>
+            <div class="space">
+              <li><a href="#" class="item">Self-Employed Taxes Hub</a></li>
+              <li><a href="#" class="item">Self-Employed Tax Calculator</a></li>
+              <li><a href="#" class="item">Self-Employed Tax Deductions</a></li>
+            </div>
+          </ul>
+
+          <ul class="footer-items">
+            <li><h2 class="footer-title">BONSAI</h2></li>
+            <li><a href="#" class="item">About</a></li>
+            <li><a href="#" class="item">Careers</a></li>
+            <li><a href="#" class="item">Support</a></li>
+            <li><a href="#" class="item">Linkedin</a></li>
+            <li><a href="#" class="item">Twitter</a></li>
+            <li><a href="#" class="item">Privacy policy</a></li>
+            <li><a href="#" class="item">Legal</a></li>
+            <div class="space">
+              <li><a href="#" class="item">Affiliates</a></li>
+              <li><a href="#" class="item">Write for Us</a></li>
+            </div>
+            <div class="space">
+              <li><a href="#" class="item">Comparisons</a></li>
+            </div>
+          </ul>
+
+          <ul class="footer-items template">
+            <li><h2 class="footer-title margin">Templates</h2></li>
+            <li><a href="#" class="item">Invoice Templates</a></li>
+            <li><a href="#" class="item">Proposal Templates</a></li>
+            <li><a href="#" class="item">Contract Templates</a></li>
+            <li><a href="#" class="item">Agreement Templates</a></li>
+            <li><a href="#" class="item">Scope of Work Templates</a></li>
+            <li><a href="#" class="item">Quote Templates</a></li>
+            <li><a href="#" class="item">Credit Note Templates</a></li>
+            <li><a href="#" class="item">Estimate Templates</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/dropdown-header.js"></script>
+    <script src="js/dash-button.js"></script>
+    <script src="js/dropdown-faq.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+  </body>
+</html>
